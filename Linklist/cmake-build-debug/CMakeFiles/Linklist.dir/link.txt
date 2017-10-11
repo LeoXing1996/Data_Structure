@@ -1,0 +1,3 @@
+"E:\CLion 2017.2.3\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\Linklist.dir/objects.a
+E:\MinGw\bin\ar.exe cr CMakeFiles\Linklist.dir/objects.a @CMakeFiles\Linklist.dir\objects1.rsp
+E:\MinGw\bin\gcc.exe -g   -Wl,--whole-archive CMakeFiles\Linklist.dir/objects.a -Wl,--no-whole-archive  -o Linklist.exe -Wl,--out-implib,libLinklist.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Linklist.dir\linklibs.rsp
